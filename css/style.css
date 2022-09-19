@@ -18,6 +18,11 @@
     --lilla: #9792e4;
     --yellow: #fdc15f;
     --darkgrey: #333333;
+    --ligtgrey: #5A6E7F;
+}
+
+.widthbig{
+    max-width: 1200px;
 }
 
 .constrictor{
@@ -28,6 +33,45 @@
     color: var(--white);
 }
 
+.blue{
+    color: var(--blue);
+}
+
+.ligtgrey{
+    color: var(--ligtgrey);
+}
+
+.fontdim1{
+    font-size: 2em;
+}
+
+.fontdim2{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.fontdim3{
+    font-size: 1.3em;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+.button1{
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 30px;
+    padding: 15px 70px 15px 70px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+p{
+    line-height: 2em;
+}
+
+.iconmargin{
+    margin: 0em 0.3em 0em 0.3em;
+}
 
 
 
@@ -40,4 +84,42 @@
 nav{
     background-color: var(--blue);
     height: 76px;
+    position: fixed; 
+    top: 0px;
+    width: 100%;  
+    z-index: 1000;
 }
+
+.flexnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    margin: 0px 40px 0px 40px;
+}
+
+/* headerend */
+
+
+/* main */
+
+.section1{
+    margin-top: 140px;
+}
+
+.sfondocard1{
+    background-color: var(--lightblue);
+    border-radius: 20px;
+    margin: 40px;
+}
+
+.flexcard1{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 0px 40px; 
+    justify-content: space-around;
+    gap: 30px;
+}
+
+
+
