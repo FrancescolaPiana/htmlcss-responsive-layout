@@ -78,6 +78,15 @@
     font-style: italic;
 }
 
+.fontdim7{
+    font-size: 1.8em;
+}
+
+.fontdim6n{
+    font-size: 1.6em;
+}
+
+
 .button1{
     background-color: var(--blue);
     color: var(--white);
@@ -175,7 +184,8 @@ nav{
 .section2{
     background-color: var(--lilla);
     padding: 40px;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .img2{
@@ -197,4 +207,61 @@ nav{
     margin-bottom: 40px;
 }
 
+.nocard{
+    padding-top: 50px;
+    padding-bottom: 50px;
 
+}
+
+.sfondocard3{
+    background-color: var(--lilla);
+    border-radius: 40px;
+    margin: 40px;
+}
+
+.flexcard2b{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px; 
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.testimonials{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url(../img/testimonial1.jpg);
+    background-position: top ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.testimonials2{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url(../img/testimonial2.jpg);
+    background-position: top ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.testimonials3{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url(../img/testimonial3.jpg);
+    background-position: top ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
