@@ -245,6 +245,7 @@ nav{
 }
 
 .img2{
+    align-self: center;
     width: 80vw;
     margin: 50px 0px 70px 0px;
 }
@@ -292,6 +293,8 @@ nav{
 .testimonials{
     width: 250px;
     height: 250px;
+    min-width: 250px;
+    min-height: 250px;
     border-radius: 50%;
     background-image: url(../img/testimonial1.jpg);
     background-position: top ;
@@ -302,6 +305,8 @@ nav{
 .testimonials2{
     width: 250px;
     height: 250px;
+    min-width: 250px;
+    min-height: 250px;
     border-radius: 50%;
     background-image: url(../img/testimonial2.jpg);
     background-position: top ;
@@ -312,6 +317,8 @@ nav{
 .testimonials3{
     width: 250px;
     height: 250px;
+    min-width: 250px;
+    min-height: 250px;
     border-radius: 50%;
     background-image: url(../img/testimonial3.jpg);
     background-position: top ;
@@ -435,12 +442,151 @@ nav{
 /* QUERY TABLET */
 
 @media screen and (min-width: 768px ){
-     .sfondocard1b{
-        flex-wrap: nowrap;
-        width: calc( 100% / 3);
-        margin: 0 auto;
+
+    /* fonts dimintionts by 0.4em */
+    .fontdim1{
+        font-size: 1.5em;
+    }
+    
+    .fontdim2{
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+    
+    .fontdim3{
+        font-size: 1em;
+        font-weight: 700;
+        letter-spacing: 0.2em;
+    }
+ 
+    .fontdim4b{
+        font-size: 2.4em;
+        font-weight: 700;
+    }
+    
+    .fontdim4c{
+        font-size: 3.6em;
+        font-weight: 700;
+    }
+    
+    .fontdim4d{
+        font-size: 4.6em;
+        font-weight: 700;
+    }
+    
+    
+    .fontdim5{
+        font-size: 0.9em;
+    }
+    
+    .fontdim5b{
+        font-size: 0.8em;
+        font-weight: lighter;
+    }
+    
+    .fontdim6{
+        font-size: 1.1em;
+        font-style: italic;
+    }
+    
+    .fontdim7{
+        font-size: 1.4em;
+    }
+    
+    .fontdim6n{
+        font-size: 1.2em;
+    }
+
+/* section1 */
+        .flexbase{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 40px;
+            margin-right: 40px;
+            justify-content: space-between;
+        }
+
+        .sfondocard1{
+            width: calc( 100% * 0.66);
+            margin: 0 ;
+            margin-bottom: 40px;
+        }
+
+        .sfondocard1b{
+        width: calc( 94% / 3);
+        margin: 0 ;
+        margin-bottom: 40px;
+        padding: 25px;
      }
+
+/* section2 */
+    
+    #textbig{
+        font-size: 4em;
+        font-weight: 700;
+     }
+
+     .iconmarginb{
+        width: 30px;
+        height: 25px;
+        vertical-align: middle;
+        padding-left: 3px;
+        line-height: 25px;
+    }
+
+/* section3 */
+
+     .flexcard2b{
+        flex-direction: row;
+     }
+
+     .change1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 50px;
+     }
+
+     .name{
+        margin-left: 20px;
+     }
+
+     .fontdim6n{
+        font-size: 1.2em;
+     }
+
+     .fontdim4{
+        font-size: 2.1em;
+        font-weight: 700;
+    }
+
+    .fontdim7{
+        font-size: 1.4em;
+    }
+
+    /* section4 */
+
+        .change2{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .flexcard4{
+            width: calc(95% / 2);
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+        }
+
+
+
+
+
 }
+
 
 
 
