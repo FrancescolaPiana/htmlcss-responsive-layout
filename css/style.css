@@ -37,6 +37,10 @@
     color: var(--white);
 }
 
+.white2{
+    color: rgba(255, 255, 255, 0.5);
+}
+
 .blue{
     color: var(--blue);
 }
@@ -49,6 +53,10 @@
     color: var(--lilla);
 }
 
+.yellow{
+    color: var(--yellow);
+}
+
 .fontdim1{
     font-size: 1.9em;
 }
@@ -59,7 +67,7 @@
 }
 
 .fontdim3{
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: 700;
     letter-spacing: 0.2em;
 }
@@ -79,8 +87,19 @@
     font-weight: 700;
 }
 
+.fontdim4d{
+    font-size: 5em;
+    font-weight: 700;
+}
+
+
 .fontdim5{
     font-size: 1.3em;
+}
+
+.fontdim5b{
+    font-size: 1.2em;
+    font-weight: lighter;
 }
 
 .fontdim6{
@@ -354,7 +373,7 @@ nav{
     background-color: var(--lilla);
     color: var(--white);
     border-radius: 30px;
-    padding: 15px 15px 15px 15px;
+    padding: 8px 15px 8px 15px;
     text-decoration: none;
     align-self: flex-start;
 }
@@ -363,3 +382,45 @@ nav{
 
 /* section 6 */
 
+.flex6{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.button6{
+    background-color: var(--white);
+    color: var(--lilla);
+    border-radius: 40px;
+    padding: 20px 70px 20px 70px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.section6{
+    background-color: var(--lilla);
+    padding: 80px 40px 80px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* section 6 end*/
+
+/* footer */
+
+.foot{
+    background-color: var(--darkgrey);
+}
+
+.flexcard2c{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 40px 60px 40px ; 
+    justify-content: space-between;
+    gap: 100px;
+}
+
+/* footer end */
