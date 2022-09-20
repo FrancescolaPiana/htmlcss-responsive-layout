@@ -438,7 +438,7 @@ nav{
 
 /* footer end */
 
-
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* QUERY TABLET */
 
 @media screen and (min-width: 768px ){
@@ -581,12 +581,33 @@ nav{
             
         }
 
+        /* section5 */
 
+        .change3{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
 
+        #profile{
+            justify-content: flex-start;
+        }
 
+        /* section6 */
+        .flex6{
+            margin: 0 auto;
+            max-width: 80%;
+        }
 
+        /* footer */
+        .flexcard2c{
+            margin: 0 auto;
+            max-width: 80%;
+        }
 }
 
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 
 
