@@ -517,6 +517,16 @@ nav{
         margin: 0 ;
         margin-bottom: 40px;
         padding: 25px;
+        justify-content: flex-start;
+     }
+
+     .img1{
+        width: 50%;
+     }
+
+     #modify{
+        align-self: flex-start  ;
+        margin: 0%;
      }
 
 /* section2 */
