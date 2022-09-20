@@ -69,6 +69,16 @@
     font-weight: 700;
 }
 
+.fontdim4b{
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+.fontdim4c{
+    font-size: 4em;
+    font-weight: 700;
+}
+
 .fontdim5{
     font-size: 1.3em;
 }
@@ -110,14 +120,35 @@ p{
 }
 
 .iconmargin{
-    margin: 0em 0.2em 0em 0.2em;
+    margin: 0em 0.3em 0em 0.3em;
+}
+
+.iconmarginb{
+    width: 30px;
+    height: 25px;
+    vertical-align: middle;
+    padding-left: 4px;
+}
+
+.iconmarginc{
+    padding: 0em 0.4em 0em 0.4em;
 }
 
 .iconsize{
     font-size: 4em;
 }
 
+.cnts{text-align: center;}
 
+.margintopbot{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.margintopbot15{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 
 
@@ -207,6 +238,10 @@ nav{
     margin-bottom: 40px;
 }
 
+/* section 2 end */
+
+/* section 3 */
+
 .nocard{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -265,3 +300,66 @@ nav{
     margin-top: 50px;
     margin-bottom: 100px;
 }
+
+/* section 3 end */
+
+/* section 4 */
+
+.flexcard4{
+    display: flex;
+    flex-direction: column;
+    padding: 40px; 
+    justify-content: space-around;
+    gap: 30px;
+    position: relative;
+}
+
+.button3{
+        background-color: var(--lilla);
+        color: var(--white);
+        border-radius: 30px;
+        padding: 15px 70px 15px 70px;
+        text-decoration: none;
+        align-self: flex-start;
+}
+
+/* section4 end */
+
+/* section 5 */
+
+.sec5{
+    gap: 80px;
+}
+
+.profile{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url(../img/about.jpg);
+    background-position: top ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overab{
+    position: absolute;
+    left: 230px;
+    top: 40px;
+    font-size: 100px;
+    color: var(--lilla);
+}
+
+.button4{
+    background-color: var(--lilla);
+    color: var(--white);
+    border-radius: 30px;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+    align-self: flex-start;
+}
+
+/* section 5 end */
+
+/* section 6 */
+
